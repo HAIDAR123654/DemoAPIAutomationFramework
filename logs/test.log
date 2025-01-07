@@ -1,0 +1,166 @@
+00:23:41.433 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
+00:23:41.515 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
+00:23:41.516 [main] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
+00:23:45.436 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
+00:23:45.441 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!
+00:24:51.436 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
+00:24:51.529 [main] INFO  com.api.listeners.TestListeners - Started!! loginTest
+00:24:51.530 [main] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
+00:24:55.975 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
+00:24:55.981 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!
+00:50:18.535 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
+00:50:18.612 [main] INFO  com.api.listeners.TestListeners - Started!! loginTest
+00:50:18.613 [main] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
+00:50:20.700 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:50:20.701 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+00:50:20.701 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"haidar123","password":"haidar@t123"}
+00:50:21.765 [main] INFO  com.api.filters.LoggingFilters - Status Code:200
+00:50:21.765 [main] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 04 Jan 2025 19:20:21 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:50:21.817 [main] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzYwMTg0MjEsImV4cCI6MTczNjAyMjAyMX0.eGIro-T-H2268spW28xoV3-ehTPFE311nDCoI2vnbo0",
+    "type": "Bearer",
+    "id": 367,
+    "username": "haidar123",
+    "email": "haidartest2001@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:50:21.883 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
+00:50:21.887 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!
+22:02:40.955 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
+22:02:41.032 [main] INFO  com.api.listeners.TestListeners - Started!! loginTest
+22:02:41.032 [main] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
+22:02:43.466 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+22:02:43.467 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+22:02:43.467 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"haidar123","password":"haidar@t123"}
+22:02:44.491 [main] INFO  com.api.filters.LoggingFilters - Status Code:200
+22:02:44.491 [main] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 05 Jan 2025 16:32:42 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:02:44.551 [main] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzYwOTQ3NjIsImV4cCI6MTczNjA5ODM2Mn0.tEdp60S4kV1i__4Kpr-09UIIYgjvgwNN8HKf-krbxg4",
+    "type": "Bearer",
+    "id": 367,
+    "username": "haidar123",
+    "email": "haidartest2001@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:02:44.623 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
+22:02:44.626 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!
+22:04:59.956 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
+22:05:00.014 [main] INFO  com.api.listeners.TestListeners - Started!! loginTest
+22:05:00.014 [main] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
+22:05:02.667 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+22:05:02.669 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+22:05:02.670 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"haidar123","password":"haidar@t123"}
+22:05:03.735 [main] INFO  com.api.filters.LoggingFilters - Status Code:200
+22:05:03.736 [main] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 05 Jan 2025 16:35:01 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:05:03.799 [main] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzYwOTQ5MDEsImV4cCI6MTczNjA5ODUwMX0.-0mqXS1mLz5N2IABEamiFtHCvii7mo1ErYmdzH0f460",
+    "type": "Bearer",
+    "id": 367,
+    "username": "haidar123",
+    "email": "haidartest2001@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:05:03.860 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
+22:05:03.899 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!
+22:19:41.497 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
+22:19:41.546 [main] INFO  com.api.listeners.TestListeners - Started!! loginTest
+22:19:41.546 [main] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
+22:19:43.186 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+22:19:43.187 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+22:19:43.187 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"haidar123","password":"haidar@t123"}
+22:19:44.292 [main] INFO  com.api.filters.LoggingFilters - Status Code:200
+22:19:44.293 [main] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 05 Jan 2025 16:49:42 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:19:44.352 [main] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzYwOTU3ODIsImV4cCI6MTczNjA5OTM4Mn0.bbft0XovT4rvm1IThXRHXqy6yoA-UUInnuC6Zod-nIo",
+    "type": "Bearer",
+    "id": 367,
+    "username": "haidar123",
+    "email": "haidartest2001@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+22:19:44.411 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
+22:19:44.472 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!
