@@ -9,10 +9,30 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">API Test Suite</th></tr>
-<tr><td><a href="#t0">API Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2,924</td><td></td><td></td></tr>
+<tr><td><a href="#t0">API Tests running parallely</a></td><td class="num">5</td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">3,749</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">API Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">API Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.api.tests.LoginAPITest</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1736095781545</td><td rowspan="1">2862</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">API Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">API Tests running parallely &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">com.api.tests.LoginAPITest</td><td><a href="#m0">loginTest</a></td><td rowspan="2">1736675961795</td><td rowspan="2">3050</td></tr><tr class="retriedeven"><td><a href="#m1">loginTest</a></td></tr><tr><th colspan="4">API Tests running parallely &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.api.tests.AccountCreationTest</td><td><a href="#m2">createAccount</a></td><td rowspan="1">1736675961794</td><td rowspan="1">2963</td></tr><tr class="passedodd"><td rowspan="1">com.api.tests.ForgotPasswordTest</td><td><a href="#m3">forgotPassword</a></td><td rowspan="1">1736675961795</td><td rowspan="1">2975</td></tr><tr class="passedeven"><td rowspan="1">com.api.tests.GetProfileRequestTest</td><td><a href="#m4">getProfileInfoTest</a></td><td rowspan="1">1736675961795</td><td rowspan="1">3276</td></tr><tr class="passedodd"><td rowspan="1">com.api.tests.LoginAPITest</td><td><a href="#m5">loginTest</a></td><td rowspan="1">1736675965140</td><td rowspan="1">323</td></tr><tr class="passedeven"><td rowspan="1">com.api.tests.UpdateProfileTest</td><td><a href="#m6">updateProfileTest</a></td><td rowspan="1">1736675961794</td><td rowspan="1">3533</td></tr></tbody>
 </table>
-<h2>API Tests</h2><h3 id="m0">com.api.tests.LoginAPITest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>API Tests running parallely</h2><h3 id="m0">com.api.tests.LoginAPITest#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [disha1updated6@yahoo.com] but found [disha1updated5@yahoo.com]
+	at com.api.tests.LoginAPITest.loginTest(LoginAPITest.java:23)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.api.tests.LoginAPITest#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [disha1updated6@yahoo.com] but found [disha1updated5@yahoo.com]
+	at com.api.tests.LoginAPITest.loginTest(LoginAPITest.java:23)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.api.tests.AccountCreationTest#createAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.api.tests.ForgotPasswordTest#forgotPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.api.tests.GetProfileRequestTest#getProfileInfoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.api.tests.LoginAPITest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.api.tests.UpdateProfileTest#updateProfileTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

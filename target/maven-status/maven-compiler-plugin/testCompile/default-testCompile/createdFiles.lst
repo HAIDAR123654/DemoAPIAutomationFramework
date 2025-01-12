@@ -1,5 +1,6 @@
 com\api\models\request\SignUpRequest.class
 com\api\base\BaseService.class
+com\api\retrytests\MyTransformer.class
 com\api\tests\GetProfileRequestTest.class
 com\api\models\response\UserProfileResponse.class
 com\api\models\request\SignUpRequest$Builder.class
@@ -7,10 +8,12 @@ com\api\models\request\ProfileRequest$Builder.class
 com\api\models\request\LoginRequest.class
 com\api\filters\LoggingFilters.class
 com\api\tests\AccountCreationTest.class
+com\api\TestRunner\TestRunner.class
 com\api\tests\UpdateProfileTest.class
 com\api\base\AuthService.class
 com\api\listeners\TestListeners.class
 com\api\models\response\LoginResponse.class
+com\api\retrytests\MyRetryAnalyzer.class
 com\api\tests\ForgotPasswordTest.class
 com\api\models\request\ProfileRequest.class
 com\api\base\UserProfileManagementService.class

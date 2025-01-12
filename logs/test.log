@@ -1,22 +1,72 @@
-00:23:41.433 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
-00:23:41.515 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
-00:23:41.516 [main] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
-00:23:45.436 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
-00:23:45.441 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!
-00:24:51.436 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
-00:24:51.529 [main] INFO  com.api.listeners.TestListeners - Started!! loginTest
-00:24:51.530 [main] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
-00:24:55.975 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
-00:24:55.981 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!
-00:50:18.535 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
-00:50:18.612 [main] INFO  com.api.listeners.TestListeners - Started!! loginTest
-00:50:18.613 [main] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
-00:50:20.700 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
-00:50:20.701 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+15:24:32.249 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
+15:24:32.328 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Started!! updateProfileTest
+15:24:32.328 [TestNG-test-API Tests running parallely-5] INFO  com.api.listeners.TestListeners - Started!! createAccount
+15:24:32.330 [TestNG-test-API Tests running parallely-5] INFO  com.api.listeners.TestListeners - Description!! Verify if user is able to sign up...
+15:24:32.328 [TestNG-test-API Tests running parallely-4] INFO  com.api.listeners.TestListeners - Started!! forgotPassword
+15:24:32.329 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Description!! Verify update profile APIs...
+15:24:32.330 [TestNG-test-API Tests running parallely-1] INFO  com.api.listeners.TestListeners - Started!! getProfileInfoTest
+15:24:32.331 [TestNG-test-API Tests running parallely-4] INFO  com.api.listeners.TestListeners - Description!! Verify if thr forgot password API is working...
+15:24:32.328 [TestNG-test-API Tests running parallely-3] INFO  com.api.listeners.TestListeners - Started!! loginTest
+15:24:32.334 [TestNG-test-API Tests running parallely-1] INFO  com.api.listeners.TestListeners - Description!! Verify if the profile details of the user getting fetched...
+15:24:32.334 [TestNG-test-API Tests running parallely-3] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
+15:24:33.988 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:33.988 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:33.988 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:33.988 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:33.988 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:33.989 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:33.989 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:33.989 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:33.989 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:33.989 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:33.990 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
 Content-Type=application/json
-00:50:20.701 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"haidar123","password":"haidar@t123"}
-00:50:21.765 [main] INFO  com.api.filters.LoggingFilters - Status Code:200
-00:50:21.765 [main] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+15:24:33.990 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:24:33.990 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:24:33.990 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:24:33.991 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:24:33.991 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha3","password":"disha123","email":"disha3@yahoo.com","firstName":"Disha","lastName":"Bhatt","mobileNumber":"8888888889"}
+15:24:33.991 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - Request Payload:{"email":"haidartest2001@gmail.com"}
+15:24:33.992 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:33.992 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:24:33.992 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:24:33.992 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:33.992 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:33.992 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"haidar123","password":"haidar@t123"}
+15:24:33.992 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:33.993 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:35.598 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:35.599 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:35.599 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Sun, 12 Jan 2025 09:54:34 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:35.609 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:35.609 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:35.609 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:35.609 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:35.609 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:35.609 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:35.609 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -32,30 +82,10 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Sat, 04 Jan 2025 19:20:21 GMT
+Date=Sun, 12 Jan 2025 09:54:34 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
-00:50:21.817 [main] INFO  com.api.filters.LoggingFilters - Response Body:{
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzYwMTg0MjEsImV4cCI6MTczNjAyMjAyMX0.eGIro-T-H2268spW28xoV3-ehTPFE311nDCoI2vnbo0",
-    "type": "Bearer",
-    "id": 367,
-    "username": "haidar123",
-    "email": "haidartest2001@gmail.com",
-    "roles": [
-        "ROLE_USER"
-    ]
-}
-00:50:21.883 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
-00:50:21.887 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!
-22:02:40.955 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
-22:02:41.032 [main] INFO  com.api.listeners.TestListeners - Started!! loginTest
-22:02:41.032 [main] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
-22:02:43.466 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
-22:02:43.467 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
-Content-Type=application/json
-22:02:43.467 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"haidar123","password":"haidar@t123"}
-22:02:44.491 [main] INFO  com.api.filters.LoggingFilters - Status Code:200
-22:02:44.491 [main] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+15:24:35.609 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -71,30 +101,10 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Sun, 05 Jan 2025 16:32:42 GMT
+Date=Sun, 12 Jan 2025 09:54:34 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
-22:02:44.551 [main] INFO  com.api.filters.LoggingFilters - Response Body:{
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzYwOTQ3NjIsImV4cCI6MTczNjA5ODM2Mn0.tEdp60S4kV1i__4Kpr-09UIIYgjvgwNN8HKf-krbxg4",
-    "type": "Bearer",
-    "id": 367,
-    "username": "haidar123",
-    "email": "haidartest2001@gmail.com",
-    "roles": [
-        "ROLE_USER"
-    ]
-}
-22:02:44.623 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
-22:02:44.626 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!
-22:04:59.956 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
-22:05:00.014 [main] INFO  com.api.listeners.TestListeners - Started!! loginTest
-22:05:00.014 [main] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
-22:05:02.667 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
-22:05:02.669 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
-Content-Type=application/json
-22:05:02.670 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"haidar123","password":"haidar@t123"}
-22:05:03.735 [main] INFO  com.api.filters.LoggingFilters - Status Code:200
-22:05:03.736 [main] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+15:24:35.609 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -110,11 +120,14 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Sun, 05 Jan 2025 16:35:01 GMT
+Date=Sun, 12 Jan 2025 09:54:34 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
-22:05:03.799 [main] INFO  com.api.filters.LoggingFilters - Response Body:{
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzYwOTQ5MDEsImV4cCI6MTczNjA5ODUwMX0.-0mqXS1mLz5N2IABEamiFtHCvii7mo1ErYmdzH0f460",
+15:24:35.650 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - Response Body:User registered successfully!
+15:24:35.650 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:35.663 [TestNG-test-API Tests running parallely-5] INFO  com.api.listeners.TestListeners - Passed!! createAccount
+15:24:35.685 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzY2NzU2NzQsImV4cCI6MTczNjY3OTI3NH0.L4b6sjyIujyCQvYZ1D-B2y2TAs_wlJQia0ALQtwXLAo",
     "type": "Bearer",
     "id": 367,
     "username": "haidar123",
@@ -123,17 +136,47 @@ Connection=keep-alive
         "ROLE_USER"
     ]
 }
-22:05:03.860 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
-22:05:03.899 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!
-22:19:41.497 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
-22:19:41.546 [main] INFO  com.api.listeners.TestListeners - Started!! loginTest
-22:19:41.546 [main] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
-22:19:43.186 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
-22:19:43.187 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+15:24:35.685 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NCwiZXhwIjoxNzM2Njc5Mjc0fQ.OMC7QL2QlOqeawreS4dJxonFtB7x8asuKWDxjb2XFE4",
+    "type": "Bearer",
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated4@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:24:35.685 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NCwiZXhwIjoxNzM2Njc5Mjc0fQ.OMC7QL2QlOqeawreS4dJxonFtB7x8asuKWDxjb2XFE4",
+    "type": "Bearer",
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated4@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:24:35.686 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:35.686 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:35.686 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:35.753 [TestNG-test-API Tests running parallely-3] INFO  com.api.listeners.TestListeners - Passed!! loginTest
+15:24:35.757 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:35.757 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:35.757 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:35.757 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:35.757 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NCwiZXhwIjoxNzM2Njc5Mjc0fQ.OMC7QL2QlOqeawreS4dJxonFtB7x8asuKWDxjb2XFE4
 Content-Type=application/json
-22:19:43.187 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"haidar123","password":"haidar@t123"}
-22:19:44.292 [main] INFO  com.api.filters.LoggingFilters - Status Code:200
-22:19:44.293 [main] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+15:24:35.757 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NCwiZXhwIjoxNzM2Njc5Mjc0fQ.OMC7QL2QlOqeawreS4dJxonFtB7x8asuKWDxjb2XFE4
+Content-Type=application/json
+15:24:35.757 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:24:35.758 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:24:35.758 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:35.758 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:35.951 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:35.951 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:35.952 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -149,18 +192,849 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Sun, 05 Jan 2025 16:49:42 GMT
+Date=Sun, 12 Jan 2025 09:54:35 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
-22:19:44.352 [main] INFO  com.api.filters.LoggingFilters - Response Body:{
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzYwOTU3ODIsImV4cCI6MTczNjA5OTM4Mn0.bbft0XovT4rvm1IThXRHXqy6yoA-UUInnuC6Zod-nIo",
+15:24:35.953 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated4@yahoo.com",
+    "firstName": "DishaUpdated4",
+    "lastName": "BhattUpdated4",
+    "mobileNumber": "1234567891"
+}
+15:24:35.953 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:35.965 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:35.966 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:35.966 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NCwiZXhwIjoxNzM2Njc5Mjc0fQ.OMC7QL2QlOqeawreS4dJxonFtB7x8asuKWDxjb2XFE4
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NCwiZXhwIjoxNzM2Njc5Mjc0fQ.OMC7QL2QlOqeawreS4dJxonFtB7x8asuKWDxjb2XFE4
+Content-Type=application/json
+15:24:35.966 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"firstName":"DishaUpdated5","lastName":"BhattUpdated5","email":"disha1updated5@yahoo.com","mobileNumber":"1234567892"}
+15:24:35.966 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:36.007 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:36.007 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:36.007 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:54:35 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:36.008 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated4@yahoo.com",
+    "firstName": "DishaUpdated4",
+    "lastName": "BhattUpdated4",
+    "mobileNumber": "1234567891"
+}
+15:24:36.008 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:36.014 [TestNG-test-API Tests running parallely-1] INFO  com.api.listeners.TestListeners - Passed!! getProfileInfoTest
+15:24:36.159 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:36.159 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:36.160 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:54:35 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:36.161 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "firstName": "DishaUpdated5",
+    "lastName": "BhattUpdated5",
+    "mobileNumber": "1234567892"
+}
+15:24:36.161 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:36.176 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Skipped!! updateProfileTest
+15:24:36.178 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Started!! updateProfileTest
+15:24:36.178 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Description!! Verify update profile APIs...
+15:24:36.186 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:36.186 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:36.187 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:24:36.187 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:24:36.187 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:36.468 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:36.468 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:36.468 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:54:35 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:36.469 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NSwiZXhwIjoxNzM2Njc5Mjc1fQ.UoVBLCkFsQiDDBYTVV1WTcLnD7rIe4fYu-xZdg4kwHA",
     "type": "Bearer",
-    "id": 367,
-    "username": "haidar123",
-    "email": "haidartest2001@gmail.com",
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
     "roles": [
         "ROLE_USER"
     ]
 }
-22:19:44.411 [main] INFO  com.api.listeners.TestListeners - Passed!! loginTest
-22:19:44.472 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!
+15:24:36.469 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:36.474 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:36.475 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:36.475 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NSwiZXhwIjoxNzM2Njc5Mjc1fQ.UoVBLCkFsQiDDBYTVV1WTcLnD7rIe4fYu-xZdg4kwHA
+Content-Type=application/json
+15:24:36.475 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:24:36.475 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:36.701 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:36.701 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:36.701 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:54:36 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:36.702 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "firstName": "DishaUpdated5",
+    "lastName": "BhattUpdated5",
+    "mobileNumber": "1234567892"
+}
+15:24:36.703 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:36.711 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:36.712 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:36.712 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NSwiZXhwIjoxNzM2Njc5Mjc1fQ.UoVBLCkFsQiDDBYTVV1WTcLnD7rIe4fYu-xZdg4kwHA
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NSwiZXhwIjoxNzM2Njc5Mjc1fQ.UoVBLCkFsQiDDBYTVV1WTcLnD7rIe4fYu-xZdg4kwHA
+Content-Type=application/json
+15:24:36.712 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"firstName":"DishaUpdated5","lastName":"BhattUpdated5","email":"disha1updated5@yahoo.com","mobileNumber":"1234567892"}
+15:24:36.712 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:36.982 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:36.983 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:36.983 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:54:36 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:36.984 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "firstName": "DishaUpdated5",
+    "lastName": "BhattUpdated5",
+    "mobileNumber": "1234567892"
+}
+15:24:36.985 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:36.995 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Skipped!! updateProfileTest
+15:24:36.997 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Started!! updateProfileTest
+15:24:36.997 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Description!! Verify update profile APIs...
+15:24:37.004 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:37.004 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:37.005 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:24:37.005 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:24:37.005 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:37.320 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:37.320 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:37.320 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:54:36 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:37.322 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NiwiZXhwIjoxNzM2Njc5Mjc2fQ.t48ieQ8kom-id8TEYYQNiLc1MrRIzEEfVN4PNHztXE4",
+    "type": "Bearer",
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:24:37.322 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:37.329 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:37.329 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:37.330 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NiwiZXhwIjoxNzM2Njc5Mjc2fQ.t48ieQ8kom-id8TEYYQNiLc1MrRIzEEfVN4PNHztXE4
+Content-Type=application/json
+15:24:37.330 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:24:37.330 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:37.437 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:37.437 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - Status Code:401
+15:24:37.438 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=170
+Date=Sun, 12 Jan 2025 09:54:36 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:37.439 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "timestamp": "Sun Jan 12 09:54:36 UTC 2025",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+15:24:37.440 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:37.445 [TestNG-test-API Tests running parallely-4] INFO  com.api.listeners.TestListeners - Passed!! forgotPassword
+15:24:37.552 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:37.552 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:37.552 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:54:36 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:37.553 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "firstName": "DishaUpdated5",
+    "lastName": "BhattUpdated5",
+    "mobileNumber": "1234567892"
+}
+15:24:37.553 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:37.563 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:37.563 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:37.563 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NiwiZXhwIjoxNzM2Njc5Mjc2fQ.t48ieQ8kom-id8TEYYQNiLc1MrRIzEEfVN4PNHztXE4
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NiwiZXhwIjoxNzM2Njc5Mjc2fQ.t48ieQ8kom-id8TEYYQNiLc1MrRIzEEfVN4PNHztXE4
+Content-Type=application/json
+15:24:37.563 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"firstName":"DishaUpdated5","lastName":"BhattUpdated5","email":"disha1updated5@yahoo.com","mobileNumber":"1234567892"}
+15:24:37.563 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:37.835 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:37.835 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:37.835 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:54:37 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:37.838 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "firstName": "DishaUpdated5",
+    "lastName": "BhattUpdated5",
+    "mobileNumber": "1234567892"
+}
+15:24:37.839 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:37.845 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Skipped!! updateProfileTest
+15:24:37.847 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Started!! updateProfileTest
+15:24:37.847 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Description!! Verify update profile APIs...
+15:24:37.853 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:37.853 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:37.853 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:24:37.853 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:24:37.854 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:38.191 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:38.191 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:38.191 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:54:37 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:38.192 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NywiZXhwIjoxNzM2Njc5Mjc3fQ.BBTYkOZrfQ4QMHTHPMwHMIU9a9nyS7VGIrPRRJAm7hc",
+    "type": "Bearer",
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:24:38.192 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:38.200 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:38.200 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:38.200 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NywiZXhwIjoxNzM2Njc5Mjc3fQ.BBTYkOZrfQ4QMHTHPMwHMIU9a9nyS7VGIrPRRJAm7hc
+Content-Type=application/json
+15:24:38.200 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:24:38.200 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:38.481 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:38.481 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:38.481 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:54:37 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:38.481 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "firstName": "DishaUpdated5",
+    "lastName": "BhattUpdated5",
+    "mobileNumber": "1234567892"
+}
+15:24:38.482 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:38.487 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:38.487 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:24:38.487 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NywiZXhwIjoxNzM2Njc5Mjc3fQ.BBTYkOZrfQ4QMHTHPMwHMIU9a9nyS7VGIrPRRJAm7hc
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTY3NywiZXhwIjoxNzM2Njc5Mjc3fQ.BBTYkOZrfQ4QMHTHPMwHMIU9a9nyS7VGIrPRRJAm7hc
+Content-Type=application/json
+15:24:38.487 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"firstName":"DishaUpdated5","lastName":"BhattUpdated5","email":"disha1updated5@yahoo.com","mobileNumber":"1234567892"}
+15:24:38.487 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:24:38.704 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:38.704 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:24:38.705 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:54:38 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:38.706 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "firstName": "DishaUpdated5",
+    "lastName": "BhattUpdated5",
+    "mobileNumber": "1234567892"
+}
+15:24:38.707 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:24:38.711 [TestNG-test-API Tests running parallely-2] ERROR com.api.listeners.TestListeners - Failed!! updateProfileTest
+15:24:38.745 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!
+15:29:21.726 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
+15:29:21.801 [TestNG-test-API Tests running parallely-3] INFO  com.api.listeners.TestListeners - Started!! loginTest
+15:29:21.801 [TestNG-test-API Tests running parallely-4] INFO  com.api.listeners.TestListeners - Started!! forgotPassword
+15:29:21.801 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Started!! updateProfileTest
+15:29:21.801 [TestNG-test-API Tests running parallely-5] INFO  com.api.listeners.TestListeners - Started!! createAccount
+15:29:21.802 [TestNG-test-API Tests running parallely-4] INFO  com.api.listeners.TestListeners - Description!! Verify if thr forgot password API is working...
+15:29:21.802 [TestNG-test-API Tests running parallely-3] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
+15:29:21.801 [TestNG-test-API Tests running parallely-1] INFO  com.api.listeners.TestListeners - Started!! getProfileInfoTest
+15:29:21.803 [TestNG-test-API Tests running parallely-5] INFO  com.api.listeners.TestListeners - Description!! Verify if user is able to sign up...
+15:29:21.802 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Description!! Verify update profile APIs...
+15:29:21.803 [TestNG-test-API Tests running parallely-1] INFO  com.api.listeners.TestListeners - Description!! Verify if the profile details of the user getting fetched...
+15:29:23.523 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:23.523 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:23.523 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:23.523 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:23.523 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:23.525 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:29:23.525 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:29:23.525 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:29:23.525 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:29:23.525 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:29:23.526 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:29:23.526 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:29:23.526 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:29:23.526 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:29:23.526 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:29:23.527 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:29:23.527 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - Request Payload:{"email":"disha1updated6@yahoo.com"}
+15:29:23.527 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:29:23.527 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:23.527 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha4","password":"disha123","email":"disha4@yahoo.com","firstName":"Disha","lastName":"Bhatt","mobileNumber":"8888888889"}
+15:29:23.527 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:23.527 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:23.527 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:29:23.527 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:23.529 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:24.717 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:24.723 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:29:24.724 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:59:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:29:24.741 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:24.741 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:29:24.741 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Sun, 12 Jan 2025 09:59:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:29:24.753 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - Response Body:User registered successfully!
+15:29:24.754 [TestNG-test-API Tests running parallely-5] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:24.760 [TestNG-test-API Tests running parallely-5] INFO  com.api.listeners.TestListeners - Passed!! createAccount
+15:29:24.769 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+15:29:24.769 [TestNG-test-API Tests running parallely-4] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:24.771 [TestNG-test-API Tests running parallely-4] INFO  com.api.listeners.TestListeners - Passed!! forgotPassword
+15:29:24.782 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:24.782 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:29:24.782 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:59:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:29:24.783 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTk2NCwiZXhwIjoxNzM2Njc5NTY0fQ.NiK7safLi_wJM2czWo8Di-CHRZuj4IA_Uk1dVDQEf3c",
+    "type": "Bearer",
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:29:24.783 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:24.806 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:24.807 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:29:24.807 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:59:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:29:24.809 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTk2NCwiZXhwIjoxNzM2Njc5NTY0fQ.NiK7safLi_wJM2czWo8Di-CHRZuj4IA_Uk1dVDQEf3c",
+    "type": "Bearer",
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:29:24.809 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:24.809 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:24.809 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:29:24.810 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:59:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:29:24.811 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTk2NCwiZXhwIjoxNzM2Njc5NTY0fQ.NiK7safLi_wJM2czWo8Di-CHRZuj4IA_Uk1dVDQEf3c",
+    "type": "Bearer",
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:29:24.811 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:24.841 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:24.841 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:24.841 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:29:24.842 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:29:24.842 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTk2NCwiZXhwIjoxNzM2Njc5NTY0fQ.NiK7safLi_wJM2czWo8Di-CHRZuj4IA_Uk1dVDQEf3c
+Content-Type=application/json
+15:29:24.842 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTk2NCwiZXhwIjoxNzM2Njc5NTY0fQ.NiK7safLi_wJM2czWo8Di-CHRZuj4IA_Uk1dVDQEf3c
+Content-Type=application/json
+15:29:24.842 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:29:24.842 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:29:24.842 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:24.842 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:24.850 [TestNG-test-API Tests running parallely-3] INFO  com.api.listeners.TestListeners - Skipped!! loginTest
+15:29:24.853 [TestNG-test-API Tests running parallely-3] INFO  com.api.listeners.TestListeners - Started!! loginTest
+15:29:24.854 [TestNG-test-API Tests running parallely-3] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
+15:29:24.863 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:24.863 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:29:24.863 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:29:24.863 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:29:24.863 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:25.059 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:25.060 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:29:25.060 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:59:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:29:25.062 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "firstName": "DishaUpdated5",
+    "lastName": "BhattUpdated5",
+    "mobileNumber": "1234567892"
+}
+15:29:25.063 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:25.063 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:25.063 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:29:25.064 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:59:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:29:25.066 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "firstName": "DishaUpdated5",
+    "lastName": "BhattUpdated5",
+    "mobileNumber": "1234567892"
+}
+15:29:25.066 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:25.077 [TestNG-test-API Tests running parallely-1] INFO  com.api.listeners.TestListeners - Passed!! getProfileInfoTest
+15:29:25.090 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:25.091 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:29:25.092 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTk2NCwiZXhwIjoxNzM2Njc5NTY0fQ.NiK7safLi_wJM2czWo8Di-CHRZuj4IA_Uk1dVDQEf3c
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTk2NCwiZXhwIjoxNzM2Njc5NTY0fQ.NiK7safLi_wJM2czWo8Di-CHRZuj4IA_Uk1dVDQEf3c
+Content-Type=application/json
+15:29:25.092 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"firstName":"DishaUpdated6","lastName":"BhattUpdated6","email":"disha1updated6@yahoo.com","mobileNumber":"1234567893"}
+15:29:25.092 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:25.129 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:25.130 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:29:25.130 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:59:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:29:25.132 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTk2NCwiZXhwIjoxNzM2Njc5NTY0fQ.NiK7safLi_wJM2czWo8Di-CHRZuj4IA_Uk1dVDQEf3c",
+    "type": "Bearer",
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated5@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:29:25.132 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:25.139 [TestNG-test-API Tests running parallely-3] INFO  com.api.listeners.TestListeners - Skipped!! loginTest
+15:29:25.140 [TestNG-test-API Tests running parallely-3] INFO  com.api.listeners.TestListeners - Started!! loginTest
+15:29:25.140 [TestNG-test-API Tests running parallely-3] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
+15:29:25.148 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:25.148 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+15:29:25.149 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+15:29:25.149 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"Disha","password":"disha123"}
+15:29:25.149 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ===================================================================================
+15:29:25.322 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:25.322 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:29:25.323 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:59:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:29:25.324 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated6@yahoo.com",
+    "firstName": "DishaUpdated6",
+    "lastName": "BhattUpdated6",
+    "mobileNumber": "1234567893"
+}
+15:29:25.324 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:25.329 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Passed!! updateProfileTest
+15:29:25.457 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:25.457 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Status Code:200
+15:29:25.458 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 12 Jan 2025 09:59:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:29:25.459 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEaXNoYSIsImlhdCI6MTczNjY3NTk2NCwiZXhwIjoxNzM2Njc5NTY0fQ.NiK7safLi_wJM2czWo8Di-CHRZuj4IA_Uk1dVDQEf3c",
+    "type": "Bearer",
+    "id": 407,
+    "username": "Disha",
+    "email": "disha1updated6@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:29:25.459 [TestNG-test-API Tests running parallely-3] INFO  com.api.filters.LoggingFilters - ************************************************************************************
+15:29:25.464 [TestNG-test-API Tests running parallely-3] INFO  com.api.listeners.TestListeners - Passed!! loginTest
+15:29:25.494 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed!!

@@ -9,7 +9,7 @@ public class ForgotPasswordTest {
     @Test(description = "Verify if thr forgot password API is working...")
     public void forgotPassword(){
         AuthService authService = new AuthService();
-        Response response = authService.forgotPassword("haidartest2001@gmail.com");
+        Response response = authService.forgotPassword("disha1updated6@yahoo.com");
         System.out.println(response.asPrettyString());
     }
 }

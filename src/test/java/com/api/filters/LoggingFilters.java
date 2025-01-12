@@ -20,14 +20,18 @@ public class LoggingFilters implements Filter {
     }
 
     public void logRequest(FilterableRequestSpecification requestSpec){
+    	logger.info("===================================================================================");
         logger.info("BASE URI:" + requestSpec.getBaseUri());
         logger.info("Request Header:" + requestSpec.getHeaders());
         logger.info("Request Payload:" + requestSpec.getBody());
+        logger.info("===================================================================================");
     }
 
     public void logResponse(Response response){
+    	logger.info("************************************************************************************");
         logger.info("Status Code:" + response.getStatusCode());
         logger.info("Response Headers:" + response.getHeaders());
         logger.info("Response Body:" + response.getBody().prettyPrint());
+        logger.info("************************************************************************************");
     }
 }

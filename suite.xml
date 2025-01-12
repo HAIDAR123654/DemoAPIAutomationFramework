@@ -1,8 +1,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="API Test Suite">
-    <test thread-count="5" name="API Tests">
-        <classes>
-            <class name="com.api.tests.LoginAPITest"/>
-        </classes>
-    </test>
+	<listeners>
+		<listener class-name="com.api.retrytests.MyTransformer"></listener>
+	</listeners>
+	<test thread-count="5" name="API Tests">
+		<classes>
+			<class name="com.api.tests.LoginAPITest" />
+		</classes>
+	</test>
 </suite>

@@ -12,8 +12,8 @@ public class AccountCreationTest {
     public void createAccount(){
 
         SignUpRequest signUpRequest = new SignUpRequest.Builder()
-                .username("Disha")
-                .email("disha1@yahoo.com")
+                .username("Disha4")
+                .email("disha4@yahoo.com")
                 .firstName("Disha")
                 .password("disha123")
                 .lastName("Bhatt")

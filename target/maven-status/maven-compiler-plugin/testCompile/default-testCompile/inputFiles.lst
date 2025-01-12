@@ -8,6 +8,9 @@ D:\IntellijIdea\JatinRestAssured\DemoAPIAutomationFramework\src\test\java\com\ap
 D:\IntellijIdea\JatinRestAssured\DemoAPIAutomationFramework\src\test\java\com\api\models\request\SignUpRequest.java
 D:\IntellijIdea\JatinRestAssured\DemoAPIAutomationFramework\src\test\java\com\api\models\response\LoginResponse.java
 D:\IntellijIdea\JatinRestAssured\DemoAPIAutomationFramework\src\test\java\com\api\models\response\UserProfileResponse.java
+D:\IntellijIdea\JatinRestAssured\DemoAPIAutomationFramework\src\test\java\com\api\retrytests\MyRetryAnalyzer.java
+D:\IntellijIdea\JatinRestAssured\DemoAPIAutomationFramework\src\test\java\com\api\retrytests\MyTransformer.java
+D:\IntellijIdea\JatinRestAssured\DemoAPIAutomationFramework\src\test\java\com\api\TestRunner\TestRunner.java
 D:\IntellijIdea\JatinRestAssured\DemoAPIAutomationFramework\src\test\java\com\api\tests\AccountCreationTest.java
 D:\IntellijIdea\JatinRestAssured\DemoAPIAutomationFramework\src\test\java\com\api\tests\ForgotPasswordTest.java
 D:\IntellijIdea\JatinRestAssured\DemoAPIAutomationFramework\src\test\java\com\api\tests\GetProfileRequestTest.java

@@ -1,17 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results retried="2" ignored="2" total="9" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-05T22:19:41 IST" name="API Test Suite" finished-at="2025-01-05T22:19:44 IST" duration-ms="2924">
+  <suite started-at="2025-01-12T15:29:21 IST" name="API Test Suite" finished-at="2025-01-12T15:29:25 IST" duration-ms="3749">
     <groups>
     </groups>
-    <test started-at="2025-01-05T22:19:41 IST" name="API Tests" finished-at="2025-01-05T22:19:44 IST" duration-ms="2924">
+    <test started-at="2025-01-12T15:29:21 IST" name="API Tests running parallely" finished-at="2025-01-12T15:29:25 IST" duration-ms="3749">
+      <class name="com.api.tests.AccountCreationTest">
+        <test-method signature="createAccount()[pri:0, instance:com.api.tests.AccountCreationTest@76f10035]" started-at="2025-01-12T15:29:21 IST" name="createAccount" description="Verify if user is able to sign up..." finished-at="2025-01-12T15:29:24 IST" duration-ms="2963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+      </class> <!-- com.api.tests.AccountCreationTest -->
+      <class name="com.api.tests.ForgotPasswordTest">
+        <test-method signature="forgotPassword()[pri:0, instance:com.api.tests.ForgotPasswordTest@5ab9b447]" started-at="2025-01-12T15:29:21 IST" name="forgotPassword" description="Verify if thr forgot password API is working..." finished-at="2025-01-12T15:29:24 IST" duration-ms="2975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+      </class> <!-- com.api.tests.ForgotPasswordTest -->
+      <class name="com.api.tests.UpdateProfileTest">
+        <test-method signature="updateProfileTest()[pri:0, instance:com.api.tests.UpdateProfileTest@553f3b6e]" started-at="2025-01-12T15:29:21 IST" name="updateProfileTest" description="Verify update profile APIs..." finished-at="2025-01-12T15:29:25 IST" duration-ms="3533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProfileTest -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.api.tests.UpdateProfileTest@553f3b6e]" started-at="2025-01-12T15:29:25 IST" name="cleanup" finished-at="2025-01-12T15:29:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.api.tests.UpdateProfileTest -->
+      <class name="com.api.tests.GetProfileRequestTest">
+        <test-method signature="getProfileInfoTest()[pri:0, instance:com.api.tests.GetProfileRequestTest@26f3d90c]" started-at="2025-01-12T15:29:21 IST" name="getProfileInfoTest" description="Verify if the profile details of the user getting fetched..." finished-at="2025-01-12T15:29:25 IST" duration-ms="3276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProfileInfoTest -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.api.tests.GetProfileRequestTest@26f3d90c]" started-at="2025-01-12T15:29:25 IST" name="cleanup" finished-at="2025-01-12T15:29:25 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.api.tests.GetProfileRequestTest -->
       <class name="com.api.tests.LoginAPITest">
-        <test-method signature="loginTest()[pri:0, instance:com.api.tests.LoginAPITest@5b239d7d]" started-at="2025-01-05T22:19:41 IST" name="loginTest" description="Verify if the Login API is working..." finished-at="2025-01-05T22:19:44 IST" duration-ms="2862" status="PASS">
+        <test-method retried="true" signature="loginTest()[pri:0, instance:com.api.tests.LoginAPITest@4e406694]" started-at="2025-01-12T15:29:21 IST" name="loginTest" description="Verify if the Login API is working..." finished-at="2025-01-12T15:29:24 IST" duration-ms="3050" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [disha1updated6@yahoo.com] but found [disha1updated5@yahoo.com]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [disha1updated6@yahoo.com] but found [disha1updated5@yahoo.com]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.api.tests.LoginAPITest.loginTest(LoginAPITest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method retried="true" signature="loginTest()[pri:0, instance:com.api.tests.LoginAPITest@4e406694]" started-at="2025-01-12T15:29:24 IST" name="loginTest" description="Verify if the Login API is working..." finished-at="2025-01-12T15:29:25 IST" duration-ms="283" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [disha1updated6@yahoo.com] but found [disha1updated5@yahoo.com]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [disha1updated6@yahoo.com] but found [disha1updated5@yahoo.com]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.api.tests.LoginAPITest.loginTest(LoginAPITest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest()[pri:0, instance:com.api.tests.LoginAPITest@4e406694]" started-at="2025-01-12T15:29:25 IST" name="loginTest" description="Verify if the Login API is working..." finished-at="2025-01-12T15:29:25 IST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- com.api.tests.LoginAPITest -->
-    </test> <!-- API Tests -->
+    </test> <!-- API Tests running parallely -->
   </suite> <!-- API Test Suite -->
 </testng-results>

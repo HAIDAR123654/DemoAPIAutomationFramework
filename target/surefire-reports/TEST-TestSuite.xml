@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.582" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.674" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\jdk-17.0.12+7\bin"/>
-    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire17786855237105080353\surefirebooter544122259690062299.jar C:\Users\Asus\AppData\Local\Temp\surefire17786855237105080353 2025-01-05T22-04-53_510-jvmRun1 surefire2530663233892038332tmp surefire_012423299657776737789tmp"/>
+    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire4517788893111719444\surefirebooter6322862790273277047.jar C:\Users\Asus\AppData\Local\Temp\surefire4517788893111719444 2025-01-11T19-31-26_490-jvmRun1 surefire4771200799174731262tmp surefire_012878438425771153646tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\IntellijIdea\JatinRestAssured\DemoAPIAutomationFramework\target\test-classes;D:\IntellijIdea\JatinRestAssured\DemoAPIAutomationFramework\target\classes;C:\Users\Asus\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Asus\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Asus\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Asus\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Asus\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Asus\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Asus\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Asus\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Asus\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Asus\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Asus\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Asus\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Asus\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Asus\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Asus\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Asus\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Asus\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire17786855237105080353\surefirebooter544122259690062299.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire4517788893111719444\surefirebooter6322862790273277047.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+7"/>
@@ -51,23 +51,33 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\jdk-17.0.12+7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Asus\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Asus\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.8\bin;C:\Program Files\Git\usr\bin;D:\Softwares\sonarqube-10.6.0.92116\bin\windows-x86-64;C:\Program Files\jdk-17.0.12+7\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs;C:\Users\Asus\AppData\Local\Android\Sdk\tools\bin;C:\Users\Asus\AppData\Local\Android\Sdk\tools;C:\Users\Asus\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\Asus\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.9.8\bin;C:\Program Files\Git\usr\bin;C:\Program Files\jdk-17.0.12+7\bin;D:\Softwares\sonarqube-10.6.0.92116\bin\windows-x86-64;C:\Users\Asus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.1\bin;C:\Users\Asus\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Asus\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
-    <property name="suite" value="suite"/>
+    <property name="suite" value="parallel"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
     <property name="java.vm.version" value="17.0.12+7"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="loginTest" classname="com.api.tests.LoginAPITest" time="3.845">
-    <system-out><![CDATA[22:04:59.956 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
-22:05:00.014 [main] INFO  com.api.listeners.TestListeners - Started!! loginTest
-22:05:00.014 [main] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
-22:05:02.667 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
-22:05:02.669 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+  <testcase name="loginTest" classname="com.api.tests.LoginAPITest" time="3.272">
+    <system-out><![CDATA[19:31:28.848 [main] INFO  com.api.listeners.TestListeners - Test Suite Started!!
+19:31:28.897 [TestNG-test-API Tests running parallely-1] INFO  com.api.listeners.TestListeners - Started!! loginTest
+19:31:28.897 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Started!! forgotPassword
+19:31:28.898 [TestNG-test-API Tests running parallely-1] INFO  com.api.listeners.TestListeners - Description!! Verify if the Login API is working...
+19:31:28.898 [TestNG-test-API Tests running parallely-2] INFO  com.api.listeners.TestListeners - Description!! Verify if thr forgot password API is working...
+19:31:30.911 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+19:31:30.912 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+19:31:30.912 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ===================================================================================
+19:31:30.912 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+19:31:30.912 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
 Content-Type=application/json
-22:05:02.670 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"haidar123","password":"haidar@t123"}
-22:05:03.735 [main] INFO  com.api.filters.LoggingFilters - Status Code:200
-22:05:03.736 [main] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+19:31:30.913 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+19:31:30.913 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Request Payload:{"email":"haidartest2001@gmail.com"}
+19:31:30.913 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"haidar123","password":"haidar@t123"}
+19:31:30.913 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+19:31:30.913 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ===================================================================================
+19:31:32.095 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Status Code:200
+19:31:32.096 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -83,11 +93,11 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Sun, 05 Jan 2025 16:35:01 GMT
+Date=Sat, 11 Jan 2025 14:01:30 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
 {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzYwOTQ5MDEsImV4cCI6MTczNjA5ODUwMX0.-0mqXS1mLz5N2IABEamiFtHCvii7mo1ErYmdzH0f460",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzY2MDQwOTAsImV4cCI6MTczNjYwNzY5MH0.IOlOeL8y7PTn7oc6l3g2M_y8cOgbffswfC6-i5VXMYA",
     "type": "Bearer",
     "id": 367,
     "username": "haidar123",
@@ -96,8 +106,8 @@ Connection=keep-alive
         "ROLE_USER"
     ]
 }
-22:05:03.799 [main] INFO  com.api.filters.LoggingFilters - Response Body:{
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzYwOTQ5MDEsImV4cCI6MTczNjA5ODUwMX0.-0mqXS1mLz5N2IABEamiFtHCvii7mo1ErYmdzH0f460",
+19:31:32.134 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzY2MDQwOTAsImV4cCI6MTczNjYwNzY5MH0.IOlOeL8y7PTn7oc6l3g2M_y8cOgbffswfC6-i5VXMYA",
     "type": "Bearer",
     "id": 367,
     "username": "haidar123",
@@ -106,12 +116,57 @@ Connection=keep-alive
         "ROLE_USER"
     ]
 }
-eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWlkYXIxMjMiLCJpYXQiOjE3MzYwOTQ5MDEsImV4cCI6MTczNjA5ODUwMX0.-0mqXS1mLz5N2IABEamiFtHCvii7mo1ErYmdzH0f460
-haidartest2001@gmail.com
+19:31:32.134 [TestNG-test-API Tests running parallely-1] INFO  com.api.filters.LoggingFilters - ===================================================================================
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
+  </testcase>
+  <testcase name="forgotPassword" classname="com.api.tests.ForgotPasswordTest" time="5.315">
+    <system-out><![CDATA[19:31:32.170 [TestNG-test-API Tests running parallely-1] INFO  com.api.listeners.TestListeners - Passed!! loginTest
+19:31:34.204 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Status Code:401
+19:31:34.204 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=ISO-8859-1
+Content-Length=170
+Date=Sat, 11 Jan 2025 14:01:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+{
+    "timestamp": "Sat Jan 11 14:01:32 UTC 2025",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+19:31:34.213 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - Response Body:{
+    "timestamp": "Sat Jan 11 14:01:32 UTC 2025",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+19:31:34.213 [TestNG-test-API Tests running parallely-2] INFO  com.api.filters.LoggingFilters - ===================================================================================
+{
+    "timestamp": "Sat Jan 11 14:01:32 UTC 2025",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+]]></system-out>
   </testcase>
 </testsuite>

@@ -23,9 +23,11 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>
-                            ${suite}.xml
+                            src/test/resources/suites/${suite}.xml
                         </suiteXmlFile>
                     </suiteXmlFiles>
+                    <parallel>methods</parallel>
+                    <threadCount>2</threadCount>
                 </configuration>
             </plugin>
         </plugins>
